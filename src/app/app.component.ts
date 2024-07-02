@@ -6,8 +6,15 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.sass'
 })
 export class AppComponent {
-  title = 'Angular-Testing';
+  title = 'feast-test';
+  isSubscribed = false;
+  btnText = 'Subscribe';
+
+  subscribe() {
+      this.isSubscribed = true;
+      this.btnText = 'Subscribed'
+  }
 }
