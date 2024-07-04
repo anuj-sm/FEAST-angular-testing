@@ -1,0 +1,10 @@
+<div class="main-div">
+  <div class="light-switch">
+    <h1>{{message}}</h1>
+    <button (click)="submit()" class="button-class"> SWITCH </button>
+  </div>
+  <div class="subscribe-button">
+    <button (click)="subscribe()" [disabled]="isSubscribed" class="button-class">{{btnText}}</button>
+  </div>
+</div>
+

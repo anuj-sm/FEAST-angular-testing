@@ -1,0 +1,17 @@
+.light-switch {
+  display: flex;
+  gap: 40px;
+}
+
+.button-class {
+  margin-top: 4px;
+  padding: 4px;
+  min-width: 100px;
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  margin: 0 100px;
+}
