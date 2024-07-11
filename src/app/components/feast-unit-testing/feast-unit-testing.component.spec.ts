@@ -1,7 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { FeastUnitTestingComponent } from './feast-unit-testing.component';
-import { DebugElement } from '@angular/core';
-import { By } from '@angular/platform-browser';
+import {RouterTestingModule} from '@angular/router/testing';
 
 describe('FeastUnitTestingComponent', () => {
   let component: FeastUnitTestingComponent;
@@ -9,7 +8,7 @@ describe('FeastUnitTestingComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [FeastUnitTestingComponent]
+      imports: [FeastUnitTestingComponent, RouterTestingModule]
     })
     .compileComponents();
     fixture = TestBed.createComponent(FeastUnitTestingComponent);

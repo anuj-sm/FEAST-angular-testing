@@ -1,11 +1,13 @@
 import { Component } from '@angular/core';
 import {NgIf} from '@angular/common';
+import {RouterLink} from '@angular/router';
 
 @Component({
   selector: 'app-feast-unit-testing',
   standalone: true,
   imports: [
-    NgIf
+    NgIf,
+    RouterLink
   ],
   templateUrl: './feast-unit-testing.component.html',
   styleUrl: './feast-unit-testing.component.css'
