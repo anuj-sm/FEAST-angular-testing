@@ -16,7 +16,6 @@ export class InfoComponent {
   }
 
   public goBack(): void {
-    // this.router.navigateByUrl('/home');
     this.router.navigate(['/home']);
   }
 }
